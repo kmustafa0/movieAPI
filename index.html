@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search a movie</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="input-field">
+        <input
+          type="text"
+          placeholder="Search a movie... (Default as 'Spider')"
+          class="searchMovie"
+          id="searchInput"
+        />
+        <button class="search" onclick="getMovieName()">Search</button>
+      </div>
+      <div class="movies"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

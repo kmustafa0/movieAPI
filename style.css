@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+body .input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+body .input-field input {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  width: 240px;
+  background-color: #02343f;
+  border-radius: 5px;
+  color: #f0edcc;
+}
+body .input-field input::placeholder {
+  color: #f0edcc;
+}
+body .input-field .search {
+  background-color: #02343f;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  color: #f0edcc;
+  cursor: pointer;
+}
+body .movies {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .movies li {
+  list-style-type: none;
+  flex: 1 0 calc(20% - 1.4rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.7rem;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+body .movies li img {
+  max-width: 300px;
+  min-height: 444px;
+  border-radius: 12px;
+  user-select: none;
+}
+body .movies li h1,
+body .movies li h2,
+body .movies li p {
+  color: #f0edcc;
+}
+body .movies li h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0.8rem 0;
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
